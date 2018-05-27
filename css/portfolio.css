@@ -1,7 +1,7 @@
 .version.portfolio /* version checker */
 {
-	color: #0000FD;
-	background-color: #BD3D3D;
+	color: #0000FC;
+	background-color: #644244;
 }
 
 .html
@@ -28,6 +28,26 @@
 	width: 0.01px;
 }
 
+#u267
+{
+	z-index: 2;
+	height: 630px;
+	opacity: 0.31;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=31)";
+	filter: alpha(opacity=31);
+	background: transparent url("../images/background%202.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+#u267-bw
+{
+	z-index: 2;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: -36px;
+}
+
 #pu75
 {
 	width: 0.01px;
@@ -35,14 +55,14 @@
 
 #u75
 {
-	z-index: 2;
+	z-index: 3;
 	width: 187px;
 	margin-right: -10000px;
 }
 
 #menuu89
 {
-	z-index: 4;
+	z-index: 5;
 	width: 614px;
 	margin-right: -10000px;
 	margin-top: 10px;
@@ -352,20 +372,20 @@
 
 #u164
 {
-	z-index: 41;
+	z-index: 42;
 	height: 2px;
 }
 
 #u164-bw
 {
-	z-index: 41;
+	z-index: 42;
 	margin-top: 20px;
 	height: 2px;
 }
 
 #u159
 {
-	z-index: 35;
+	z-index: 36;
 	min-height: 54px;
 	padding-bottom: 23px;
 }
@@ -380,7 +400,7 @@
 
 #u160-5
 {
-	z-index: 36;
+	z-index: 37;
 	width: 536px;
 	min-height: 34px;
 	margin-right: -10000px;
@@ -390,7 +410,7 @@
 
 #u159-bw
 {
-	z-index: 35;
+	z-index: 36;
 	min-height: 54px;
 	margin-top: 588px;
 }
